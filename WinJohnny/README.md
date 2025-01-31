@@ -33,7 +33,7 @@ The first approach was to use Windows' built-in Registry Editor (`regedit`). Ste
 
 1. Open the Start menu and type **"regedit"**.
 
-   ![Pasted image 20250130210932.png](./images/Pasted_image_20250130210932.png)
+   ![Pasted image 20250130210932.png](Pasted_image_20250130210932.png)
 
 2. In the Registry Editor, navigate to `HKEY_USERS`.
 3. Right-click and select **Load Hive...**.
@@ -42,7 +42,7 @@ The first approach was to use Windows' built-in Registry Editor (`regedit`). Ste
 
 However, this method failed due to persistent errors, even when attempted with Administrator privileges.
 
-![Pasted image 20250130211416.png](./images/Pasted_image_20250130211416.png)
+![Pasted image 20250130211416.png](Pasted_image_20250130211416.png)
 
 ---
 ## **Using AccessData Registry Viewer**
@@ -54,13 +54,13 @@ Since `regedit` was unsuccessful, an alternative forensic tool, **AccessData Reg
 
 After installation, a folder appears in the Start menu.
 
-![Pasted image 20250131124818.png](./images/Pasted_image_20250131124818.png)
+![Pasted image 20250131124818.png](Pasted_image_20250131124818.png)
 
 ---
 ## **Analyzing the Registry for Malicious Entries**
 To investigate malware persistence, the `NTUSER.DAT` file extracted earlier was loaded into the tool.
 
-![Pasted image 20250131125132.png](./images/Pasted_image_20250131125132.png)
+![Pasted image 20250131125132.png](Pasted_image_20250131125132.png)
 
 Key registry paths to check for persistence mechanisms:
 - `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`
