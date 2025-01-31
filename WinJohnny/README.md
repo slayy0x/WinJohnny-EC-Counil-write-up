@@ -1,5 +1,6 @@
 # CTF Writeup: Windows Registry Analysis & Malware Investigation
 
+
 ## Challenge Overview
 This challenge requires knowledge of registry analysis, malicious file investigation, and forensic techniques. The target machine runs on a Windows operating system with an IP address of `10.10.1.160`. The objective is to analyze the provided files, identify the malicious file, and determine how it achieves persistence.
 
@@ -15,7 +16,7 @@ Upon booting into the target machine, the first noticeable item on the desktop i
 
 Extracting the `.zip` file reveals a `.DAT` file inside.
 
-![Pasted image 20250130204601.png](./images/Pasted_image_20250130204601.png)
+![Pasted image 20250130204601.png](Pasted_image_20250130204601.png)
 
 ### **Understanding `.DAT` Files**
 A `.DAT` file in Windows is a data file that can store various types of information, including:
