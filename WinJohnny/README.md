@@ -11,7 +11,7 @@ This challenge requires knowledge of registry analysis, malicious file investiga
 ## Initial Discovery
 Upon booting into the target machine, the first noticeable item on the desktop is a `.zip` folder.
 
-![Pasted image 20250130203934.png](./images/Pasted_image_20250130203934.png)
+![path](Pasted_image_20250130203934.png)
 
 Extracting the `.zip` file reveals a `.DAT` file inside.
 
