@@ -7,6 +7,7 @@ This writeup was created as a reference for future forensic investigations invol
 - This writeup is intended for educational purposes only.
 - The lab hosting the CTF may or may not have an official writeup included within their platform.
 - Steps outlined in this document are specific to the challenge and may not apply universally to all registry forensic investigations.
+- Also i was going to provide the zip file but im not sure if that is allowed or not lol
 
 ## How to Use This Writeup
 - Review the methodology used to analyze the `NTUSER.DAT` file and locate malware persistence mechanisms.
